@@ -1,6 +1,6 @@
 ---
 title: "Kapitel 3 - Logik und Wildcards"
-date: 2020-12-26T14:18:17Z
+date: 2020-12-26T13:53:17Z
 draft: false
 ---
 

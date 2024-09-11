@@ -1,5 +1,7 @@
 {{ define "main" }}
 <div class="bg-gray-100 px-6 py-20 lg:px-8">
+  {{ partial "breadcrumbs.html" . }}
+
   <div class="mx-auto max-w-4xl prose md:prose-md lg:prose-lg">
     {{ .Content }}
   </div>

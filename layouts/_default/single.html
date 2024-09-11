@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div class="bg-gray-100 px-6 py-20 lg:px-8">
+  {{ partial "breadcrumbs.html" . }}
+
   {{ if .Params.image }}
     <img
       src="{{ .Params.image }}"
       alt="{{ .Params.title }} Header Image"
       class="mb-16 mx-auto max-w-3xl w-full max-h-96 rounded-md" />
   {{ end }}
-  <div class="mx-auto prose md:prose-md lg:prose-lg">
+  <div class="mx-auto max-w-4xl prose md:prose-md lg:prose-lg">
     {{ if .Params.tags }}
       <p class="text-base font-semibold leading-7 text-emerald-500">
         {{ range $index, $tag := .Params.tags }}
@@ -21,6 +23,7 @@
       <p class="mt-6 text-xl leading-8"><span class="font-mono">tl;dr</span> - {{ .Params.tldr }}</p>
       <hr class="border-emerald-500" />
     {{ end }}
+    
     <div id="content">
       {{ .Content }}
     </div>
