@@ -17,4 +17,7 @@ hero:
 projects:
   heading: Letzte Projekte 🚀
   subheading: coming soon...
+itadm:
+  heading: Teilnehmer in meinem Unterricht? 👀
+  text: Zu den Kursinhalten &rarr;
 ---

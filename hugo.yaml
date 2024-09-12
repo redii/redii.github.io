@@ -2,6 +2,35 @@ baseURL: "https://www.akmann.dev/"
 languageCode: "de-de"
 title: "Henry Akmann"
 
+menus:
+  header:
+    - name: Github
+      url: https://github.com/redii
+      params:
+        target: _blank
+      weight: 10
+    - name: Projekte
+      url: /projects
+      weight: 20
+    - name: Kontakt
+      url: /contact
+      weight: 30
+  footer:
+    - name: Startseite
+      url: /
+      weight: 10
+    - name: Projekte
+      url: /projects
+      weight: 20
+    - name: ITADM
+      url: /itadm
+      weight: 30
+    - name: DigitalOcean
+      url: https://m.do.co/c/c004d8619807
+      params:
+        target: _blank
+      weight: 40
+
 markup:
   goldmark:
     renderer:

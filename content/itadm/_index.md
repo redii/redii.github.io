@@ -1,7 +1,8 @@
 ---
-title: IT-Administrator (IHK)
 date: 2020-11-15
+hideBreadcrumbs: true
 tags: ["teaching"]
+title: IT-Administrator (IHK)
 ---
 
 # 👨‍🎓 IT-Administrator (IHK)

@@ -1,5 +1,6 @@
 ---
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
+image: /images/xp.webp
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 ---

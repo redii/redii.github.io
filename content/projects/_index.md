@@ -1,5 +1,6 @@
 ---
+hideBreadcrumbs: true
 title: Meine Projekte 🚀
 ---
 
-# Meine letzten Projekte 🚀
+# Meine Projekte 🚀
