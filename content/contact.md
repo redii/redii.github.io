@@ -1,13 +1,11 @@
 ---
 hideBreadcrumbs: true
-title: Meine Kontaktdaten 👋
+title: Meine Kontaktdaten
 ---
 
 Email: [akmann.henry@gmail.com](mailto:akmann.henry@gmail.com)  
 Github: [github.com/redii](https://github.com/redii)  
 LinkedIn: [linkedin.com/in/hakmann](https://www.linkedin.com/in/hakmann/)
-
----
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
