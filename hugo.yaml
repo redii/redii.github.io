@@ -9,9 +9,9 @@ menus:
       params:
         target: _blank
       weight: 10
-    - name: Projekte
-      url: /projects
-      weight: 20
+    # - name: Projekte
+    #   url: /projects
+    #   weight: 20
     - name: Kontakt
       url: /contact
       weight: 30
@@ -19,9 +19,9 @@ menus:
     - name: Startseite
       url: /
       weight: 10
-    - name: Projekte
-      url: /projects
-      weight: 20
+    # - name: Projekte
+    #   url: /projects
+    #   weight: 20
     - name: ITADM
       url: /itadm
       weight: 30
